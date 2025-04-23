@@ -30,7 +30,7 @@ jobs:
 
       # 3. 构建 Hugo 站点
       - name: Build
-        run: hugo --minify # --minify 可以压缩生成的静态文件
+        run: hugo -t gallery # --minify 可以压缩生成的静态文件
 
       # 4. 部署到 ioslide.github.io 仓库
       - name: Deploy

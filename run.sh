@@ -16,7 +16,10 @@ echo "▶️ Starting deployment..."
 
 # 添加所有新文件并提交
 echo "▶️ Committing deployed site..."
-git add .
+
+hugo -t gallery
+echo "▶️ Building site..."
+git add -A
 git commit -m "init"
 
 git push $REMOTE_NAME $PAGES_BRANCH

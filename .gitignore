@@ -1,0 +1,10 @@
+# Hugo generated files
+/public/
+/resources/
+*.log
+*.temp
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db

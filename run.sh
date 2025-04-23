@@ -22,4 +22,8 @@ git commit -m "init"
 git push $REMOTE_NAME $PAGES_BRANCH
 
 echo "✅ Deployment complete!"
+
+curl -X POST "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/f1dd761c-ee2c-445c-bdc6-3863f4b92346"
+
+
 exit 0

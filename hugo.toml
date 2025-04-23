@@ -1,5 +1,5 @@
 baseURL = "https://ioslide.github.io/"
-copyright = "© Your Name"
+copyright = "© XHY"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 enableRobotsTXT = true
@@ -10,23 +10,13 @@ title = "Gallery"
 
 [params]
   defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
-  title = "My Gallery"
+  description = "Timeline"
+  title = "XHY Gallery"
   [params.author]
-    email = "user@example.com"
-    name = "Your Name"
+    email = "im@xhy.im"
+    name = "Timeline"
   [params.socialIcons]
-    facebook = "https://www.facebook.com/"
-    instagram = "https://www.instagram.com/"
-    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    youtube = "https://www.youtube.com/"
-    email = "mailto:user@example.com"
-    #website = "https://example.com"
-    #mastodon = "https://example.com"
-    #pixelfed = "https://example.com"
-    #mixcloud = "https://example.com"
-    #flickr = "https://www.flickr.com"
-    #500px = "https://500px"
+    email = "mailto:im@xhy.im"
   [params.gallery]
     #boxSpacing = 10
     #targetRowHeight = 288

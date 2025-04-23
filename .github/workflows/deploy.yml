@@ -45,3 +45,4 @@ jobs:
           # ioslide.github.io 仓库通常是把网站内容放在 main 分支
           repository: ioslide/ioslide.github.io
           publish_branch: main
+          force_orphan: true # 强制创建一个新的分支，避免与现有的提交冲突

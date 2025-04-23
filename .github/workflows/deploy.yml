@@ -38,7 +38,7 @@ jobs:
         with:
           # 使用之前在仓库设置中添加的 Secret
           # 这个 Token 必须有写入 ioslide/ioslide.github.io 仓库的权限
-          github_token: ${{ secrets.ACTION_DEPLOY_TOKEN }}
+          deploy_key: ${{ secrets.ACTION_DEPLOY_TOKEN }}
           # 指定要部署的目录，Hugo 构建后的文件默认在 public/
           publish_dir: ./public
           # 指定目标仓库和分支

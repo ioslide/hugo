@@ -2,7 +2,7 @@
 description: Timeline
 title: XHY Gallery
 resources:
-  - src: DJI_20250226185620_0374_D.jpg
+  - src: cover.jpg
     params:
       cover: true # cover of the home page is used for OpenGraph cards, etc.
 menus:

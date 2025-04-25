@@ -1,1 +1,1 @@
-hugo --theme=gallery --baseURL="https://ioslide.github.io/" --buildDrafts
+hugo -t=gallery --baseURL="https://ioslide.github.io/" --buildDrafts
